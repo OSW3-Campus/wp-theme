@@ -1,0 +1,19 @@
+
+    #main-header,
+    #main-content,
+    #main-sidebar,
+    #main-footer {
+        padding: 15px;
+    }
+    #main-header {
+        background-color: green;
+    }
+    #main-content {
+        background-color: yellow;
+    }
+    #main-sidebar {
+        background-color: red;
+    }
+    #main-footer {
+        background-color: blue;
+    }

@@ -1,1 +1,3 @@
-sidebar.php 
+<aside id="main-sidebar">
+    SIDEBAR
+</aside>
