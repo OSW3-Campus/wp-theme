@@ -34,3 +34,11 @@ WordPress utilise certain nom de fichier pour fonctionner
 
 Les fonctions du thème et instructions pour WordPress sont centralisées dans le fichier:
 - functions.php
+
+paragraphe
+
+paragraphe  
+nouvelle ligne
+
+paragraphe
+sur la meme ligne
