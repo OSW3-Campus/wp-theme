@@ -29,3 +29,8 @@ WordPress utilise certain nom de fichier pour fonctionner
 - header.php _Contenu de l'Entete HTML._
 - sidebar.php _Contenu de la Sidebar HTML._
 - page.php _Affiche (par défaut) le contenu d'une page._
+
+### 2.3. Ajouter des fonctionnalités
+
+Les fonctions du thème et instructions pour WordPress sont centralisées dans le fichier:
+- functions.php
