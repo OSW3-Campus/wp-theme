@@ -15,6 +15,11 @@
     
     <header id="main-header">
         HEADER
+        <br>
+        <?php wp_nav_menu([
+            "menu" => "main-menu"
+        ]) ?>
+
     </header>
 
     <div class="row">

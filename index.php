@@ -2,6 +2,9 @@
 MAIN CONTENT
 <br>
 
+<?= get_template_directory_uri() ?>
+<br>
+
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Launch demo modal

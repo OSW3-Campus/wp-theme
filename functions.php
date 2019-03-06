@@ -1,5 +1,7 @@
 <?php
 
+define("WP_THEME", get_template_directory_uri()."/");
+
 // Pour savoir si WordPress exécute l'interface de Back-Office, On utilise la 
 // fonction is_admin()
 // https://developer.wordpress.org/reference/functions/is_admin/
@@ -36,6 +38,17 @@ function load_bootstrap()
     }
 }
 add_action("wp_loaded", "load_bootstrap");
+
+
+
+// Ajout d'une feuille de style personnalisée
+function load_custom_style()
+{
+    wp_enqueue_style("my-custom-style", WP_THEME."assets/css/main.css");
+}
+add_action("wp_loaded", "load_custom_style");
+
+
 
 
 // Ajout de la balise <title>
